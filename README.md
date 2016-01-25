@@ -10,4 +10,4 @@ GitHub Tutorial
         - Open Terminal (for Mac and Linux users) or the command prompt (for Windows users).
 
 # How to fork a repository
-	## 	
+	##	
