@@ -32,6 +32,7 @@
 #### Git Glossary
 * commit: record your changes to the local repository.
 * push: update the remote repository with your local changes.
+* pull:
 
 
 
