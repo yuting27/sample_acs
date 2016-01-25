@@ -1,7 +1,12 @@
-Sample ACS Analysis
+GitHub Tutorial
 
-This repository is used to demonstrate how to collaborate on GitHub. 
+# Installation:
+    ## Install Git
+    ## Install GitHub Desktop
+# Create a new repository
+    ## create through github desktop
+    ## create through terminal + github website
+        - Create a new repository on GitHub
+        - Open Terminal (for Mac and Linux users) or the command prompt (for Windows users).
 
-1. Create a GitHub repository
-
-2. First Commit
+# How to fork a repository
