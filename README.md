@@ -20,7 +20,7 @@
     * Add/Change files
     * Commit to local repository
     	* All saved changes are called commits.
-	* Push(Sync) to remote repository
+	* Push to remote repository
 * Work with collaboration
 	* Fork and clone a (master) repository
 	* Create a branch
@@ -30,6 +30,8 @@
 	* Merge pull request into the master branch
 
 #### Git Glossary
+* commit: record your changes to the local repository.
+* push: update the remote repository with your local changes.
 
 
 
