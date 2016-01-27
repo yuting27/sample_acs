@@ -29,6 +29,7 @@
 	* Create a branch
 		* Branching is the way to work on different parts of a repository at one time. It creates a snapshot of the original branch.
 		![branch demo](/pics/branch_demo.png)
+
 		*source: http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/ *
 	* Make a commit
 	* Open a pull request 
@@ -64,4 +65,5 @@
 
 #### Workflow
 ![workflow demo](/pics/workflow_demo.png)
+
 *source:http://rogerdudler.github.io/git-guide/ *
