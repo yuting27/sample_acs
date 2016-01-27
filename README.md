@@ -28,7 +28,7 @@
 	* Fork and clone a (master) repository
 	* Create a branch
 		* Branching is the way to work on different parts of a repository at one time. It creates a snapshot of the original branch.
-		*![branch demo](/pics/branch_demo.png)
+		* ![branch demo](/pics/branch_demo.png)
 	* Make a commit
 	* Open a pull request 
 	* Merge pull request into the master branch
