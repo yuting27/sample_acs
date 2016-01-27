@@ -33,6 +33,7 @@
 	* Open a pull request 
 	* Merge pull request into the master branch
 	* Pull to local repository
+	*  
 
 
 
