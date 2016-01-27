@@ -48,14 +48,14 @@
 	* Merge another branch into you active branch: `git merge <otherbranchname>`
 
 #### Git Glossary
-* *commit*: record your changes to the local repository.
-* *push*: update the remote repository with your local changes.
-* *pull*: update your local repository to the newest commit
-* *fork*: a request for GitHub to clone the project and registers it under your username; GitHub also keeps track of the relationship between the two repositories, so you can visualize the commits and pulls between the two projects (and other forks).
-* *clone*: copy a repository into your local directory
-* *branch*: branches allow you to build new features or test out ideas without putting the main project (master) at risk.
-* *merge*: combine another branch in to the master
-* *checkout*: switch between branches
+* **commit**: record your changes to the local repository.
+* **push**: update the remote repository with your local changes.
+* **pull**: update your local repository to the newest commit
+* **fork**: a request for GitHub to clone the project and registers it under your username; GitHub also keeps track of the relationship between the two repositories, so you can visualize the commits and pulls between the two projects (and other forks).
+* **clone**: copy a repository into your local directory
+* **branch**: branches allow you to build new features or test out ideas without putting the main project (master) at risk.
+* **merge**: combine another branch in to the master
+* **checkout**: switch between branches
 
 ![github demo](/pics/demo_1.png)
 
