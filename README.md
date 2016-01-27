@@ -28,6 +28,7 @@
 	* Fork and clone a (master) repository
 	* Create a branch
 		* Branching is the way to work on different parts of a repository at one time. It creates a snapshot of the original branch.
+
 		![branch demo](/pics/branch_demo.png)
 
 		*source: http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/ *
@@ -40,7 +41,7 @@
 
 #### Work on GitHub with terminal 
 * Work in local repository
-    * Add/Change files: `git add <filename>` or 'git add -A' if you want to add all files
+    * Add/Change files: `git add <filename>` or `git add -A` if you want to add all files
     * Commit to local repository: `git commit -m "Commit message"`
 	* Push to remote repository `git push`
 * Work with collaboration
