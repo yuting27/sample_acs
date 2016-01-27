@@ -28,10 +28,7 @@
 	* Fork and clone a (master) repository
 	* Create a branch
 		* Branching is the way to work on different parts of a repository at one time. It creates a snapshot of the original branch.
-
-		![branch demo](/pics/branch_demo.png)
-
-		*source: http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/ *
+		*![branch demo](/pics/branch_demo.png)
 	* Make a commit
 	* Open a pull request 
 	* Merge pull request into the master branch
