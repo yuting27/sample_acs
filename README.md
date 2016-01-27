@@ -7,20 +7,23 @@
 #### Initialization:
 * Create a new empty repository
 	* create through github desktop
-	* create through terminal + github website
-        * Create a new repository on GitHub
-        * Open Terminal (for Mac and Linux users) or the command prompt (for Windows users).
+	* create through github website
+	* create through terminal: `cd` to a new director and `git init`
 * Create a repository from existing local folder
+	* from desktop: drag the folder to github desktop
+	* from terminal: `cd` to existing folder and `git init`. Commit and push all the files/changes (see below).
 * Create a new R project in Studio with Git version control
     * https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
-* Clone (import) an existing Git repository
+* Clone (import) an existing Git (master) repository
+	- From desktop
+	- From terminal: `git clone username@host/path/to/repository`
 
-#### Work on GitHub
+#### Work on GitHub Desktop
 * Work in local repository
     * Add/Change files
     * Commit to local repository
-    	* All saved changes are called commits.
 	* Push to remote repository
+	* Pull to local repository
 * Work with collaboration
 	* Fork and clone a (master) repository
 	* Create a branch
@@ -28,14 +31,8 @@
 	* Make a commit
 	* Open a pull request 
 	* Merge pull request into the master branch
+	* Pull to local repository
 
-#### Git Glossary
-* commit: record your changes to the local repository.
-* push: update the remote repository with your local changes.
-* pull: update your local repository to the newest commit
-* clone: clone a repository into your local directory
-* merge: merge another branch in to your active branch
-* checkout: switch between branches
 
 
 #### Work on GitHub with terminal
@@ -44,11 +41,23 @@
     * Commit to local repository: `git commit -m "Commit message"`
 	* Push to remote repository `git push`
 * Work with collaboration
-	* Clone a (master) repository: `git clone username@host/path/to/repository`
 	* Create a branch: `git checkout -b <branchname>` 
-		* Branching is the way to work on different parts of a repository at one time. It creates a snapshot of the original branch.
 	* Switch back to master: `git checkout master`
 	* Make a commit and push to repository: `git push origin <branchname>`
 	* update local repository to newest commit: `git pull`
 	* Merge another branch into you active branch: `git merge <otherbranchname>`
 
+#### Git Glossary
+* commit: record your changes to the local repository.
+* push: update the remote repository with your local changes.
+* pull: update your local repository to the newest commit
+* fork: a request for GitHub to clone the project and registers it under your username; GitHub also keeps track of the relationship between the two repositories, so you can visualize the commits and pulls between the two projects (and other forks).
+* clone: copy a repository into your local directory
+* branch: branches allow you to build new features or test out ideas without putting the main project (master) at risk.
+* merge: combine another branch in to the master
+* checkout: switch between branches
+
+![github demo](/pics/demo_1.png)
+
+#### Workflow
+![workflow demo](/pics/workflow_demo.png)
