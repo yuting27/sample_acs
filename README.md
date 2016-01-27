@@ -14,9 +14,9 @@
 	* from terminal: `cd` to existing folder and `git init`. Commit and push all the files/changes (see below).
 * Create a new R project in Studio with Git version control
     * https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
-* Clone (import) an existing Git (master) repository
-	- From desktop
-	- From terminal: `git clone username@host/path/to/repository`
+* Fork and Clone an existing git repository
+	- from desktop
+	- from terminal: `git clone username@host/path/to/repository`
 
 #### Work on GitHub Desktop
 * Work in local repository
@@ -28,6 +28,8 @@
 	* Fork and clone a (master) repository
 	* Create a branch
 		* Branching is the way to work on different parts of a repository at one time. It creates a snapshot of the original branch.
+		![branch demo](/pics/branch_demo.png)
+		*source: http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/ *
 	* Make a commit
 	* Open a pull request 
 	* Merge pull request into the master branch
@@ -35,7 +37,7 @@
 
 
 
-#### Work on GitHub with terminal
+#### Work on GitHub with terminal 
 * Work in local repository
     * Add/Change files: `git add <filename>` or 'git add -A' if you want to add all files
     * Commit to local repository: `git commit -m "Commit message"`
@@ -46,6 +48,7 @@
 	* Make a commit and push to repository: `git push origin <branchname>`
 	* update local repository to newest commit: `git pull`
 	* Merge another branch into you active branch: `git merge <otherbranchname>`
+* A brief guide: http://rogerdudler.github.io/git-guide/
 
 #### Git Glossary
 * **commit**: record your changes to the local repository.
@@ -61,3 +64,4 @@
 
 #### Workflow
 ![workflow demo](/pics/workflow_demo.png)
+*source:http://rogerdudler.github.io/git-guide/ *
